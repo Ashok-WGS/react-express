@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skewed Image</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200 flex items-center justify-center h-screen">
+    <div class="overflow-hidden w-64 h-64 relative">
+        <!-- Image container with inline styles -->
+        <div class="w-full h-full bg-cover bg-no-repeat bg-center"
+            style="background-image: url('nature2.webp'); clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);"></div>
+    </div>
+</body>
+
+</html>
